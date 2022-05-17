@@ -14,7 +14,7 @@ public class FileSingleton {
     }
 
 
-    // Methods for created and writing file singleton.txt
+    //Methods for created and writing file singleton.txt
     private static void createFile(File file) throws IOException {
         boolean newFile = file.createNewFile();
     }
