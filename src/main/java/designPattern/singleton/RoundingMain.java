@@ -4,7 +4,7 @@ package designPattern.singleton;
 import java.io.IOException;
 
 
-public class Main {
+public class RoundingMain {
     public static void main(String[] args) throws IOException {
 
 
