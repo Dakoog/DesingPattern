@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SingletonV2 {
-    //  this is laze installation
+    // this is laze installation
     private static SingletonV2 INSTANCE;
     private List<String> pizzaNames;
 
