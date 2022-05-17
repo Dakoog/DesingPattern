@@ -2,6 +2,7 @@ package designPattern.singleton;
 
 public class SingletonMain {
     public static void main(String[] args) {
+
         System.out.println("Pizza Menu:");
         //V1 - created when the class is loading -> eager
         SingletonV1.getInstance().pizzaMenu();
