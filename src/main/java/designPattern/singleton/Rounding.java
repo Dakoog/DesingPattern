@@ -1,6 +1,6 @@
 package designPattern.singleton;
 
-public class Rounding {// my singleton
+public class Rounding {//my singleton :)
     private static final Rounding INSTANCE = new Rounding();
     private double number;
 
