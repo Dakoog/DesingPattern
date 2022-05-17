@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SingletonV1 {
-    // this object is created with the class loading
+    //this object is created with the class loading
     private static final SingletonV1 INSTANCE = new SingletonV1();
     // our singleton which have pizza's names.
     private List<String> pizzaNames;
