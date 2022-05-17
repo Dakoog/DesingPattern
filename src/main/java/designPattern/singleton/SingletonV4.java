@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public enum SingletonV4 {
-    // this object it is enum -> created when the class loading
+    // this object it is enum -> created when the class loading.
    INSTANCE;
     private List<String> pizzaNames;
 
