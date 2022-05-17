@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SingletonV3 {
-    //  this is protected installation ->
+    // this is protected installation ->
     private static SingletonV3 INSTANCE;
     private static Object lock;
     private List<String> pizzaNames;
