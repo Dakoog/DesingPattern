@@ -1,11 +1,11 @@
-package designPattern.singleton;
+package designPattern;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-public class FileSingleton {
+public class FillesWithDesingPatterns{
     public static void main(String[] args) throws IOException {
         File singleton = new File("singleton.txt");
         createFile(singleton);
