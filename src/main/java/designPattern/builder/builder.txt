@@ -1,0 +1,5 @@
+What is a builder?
+Builder ->  There is only one instance of a class
+     for the entire program, and no other can be created.
+     The instance is available for entire code -> is public and static!
+     Warning! Static breaks the principle of object orientation.
