@@ -5,11 +5,13 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-public class FillesWithDesingPatterns{
+public class FilesWithDesingPatterns{
     public static void main(String[] args) throws IOException {
         File singleton = new File("singleton.txt");
-        createFile(singleton);
-        writeToFile(singleton);
+        File builder= new File("builder.txt");
+
+        createFile(builder);
+        writeToFile(builder);
 
     }
 
