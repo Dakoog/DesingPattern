@@ -10,6 +10,9 @@ public class FilesWithDesingPatterns{
         File singleton = new File("singleton.txt");
         File builder= new File("builder.txt");
 
+        createFile(singleton);
+        writeToFile(singleton);
+
         createFile(builder);
         writeToFile(builder);
 
