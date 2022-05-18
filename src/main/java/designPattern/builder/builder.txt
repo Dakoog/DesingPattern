@@ -3,3 +3,14 @@ Builder -> if there is a class with multiple fields and don't know
  which fields you will need to use in your application, create a builder.
  Example hero class has twenty fields and can create new Hero use any fields with any combinations
  because it is result of polymorphism
+
+ How create builder pattern?
+ 1. Create all args constructor
+ 2. create inside class Builder
+ 3. select refactor of menu
+ 4. select -> Replace Constructor with Builder
+ 5. show locate for builder -> Use existing .
+ end ... finish.
+ You've got builder.
+                         WARNING
+ If you are lazy just type @Builder(with lombok)
