@@ -1,0 +1,10 @@
+*** FACTORY ***
+What is this factory pattern
+Factory ->  Exists in three forms:
+           * factory method
+           * abstract factory
+           * factory
+           When there is a need to define certain objects or types of objects to be built in some intended way.
+           There should be objects that are practical and have very specific fields.
+
+
