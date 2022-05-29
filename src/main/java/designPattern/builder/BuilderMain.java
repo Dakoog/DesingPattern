@@ -9,6 +9,8 @@ public class BuilderMain {
                 .setDriver(true)
                 .createHero();
         System.out.println(myHeroOfBonnieTyler);
+        System.out.println();
+        // create family
         Hero myFamily = new Hero.Builder()
                 .setFatherName("John")
                 .setMotherName("Liza")
@@ -19,6 +21,16 @@ public class BuilderMain {
                 .setAddress("Pcim Dolny")
                 .createHero();
         System.out.println(myFamily);
+        System.out.println();
+        // create student data
+        Student student =  Student
+                .builder()
+                .firstName("Roger")
+                .lastName("Laughter")
+                .academy("Oxford")
+                .fieldOfStudy("Mathematica")
+                .build();
+        System.out.println(student);
     }
 
 }
