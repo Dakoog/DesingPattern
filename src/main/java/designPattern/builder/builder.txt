@@ -13,4 +13,4 @@ Builder -> if there is a class with multiple fields and don't know
  end ... finish.
  You've got builder.
                          WARNING
- If you are lazy just type @Builder(with lombok)
+ If you are lazy just type, you enter @Builder(with lombok).
