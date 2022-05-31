@@ -2,9 +2,10 @@ package designPattern.factory.car;
 
 import lombok.Builder;
 import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-@Data
+@Getter
 @Builder
 @NoArgsConstructor
 
@@ -39,5 +40,23 @@ public class Car {
                 6.5, 48000000, 750, 4, true);
     }
 
+    public void setColor(String color) {
+        this.color = color;
+    }
 
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    @Override
+    public String toString() {
+        return   mark.toUpperCase()  + " "+
+                 model.toUpperCase()  +
+                "\ncolor: "+ color  +
+                "\nengineCapacity: " + engineCapacity +" dm^3"+
+                "\nprice: " + price +" zł"+
+                "\npowerHP: " + powerHP + " KM"+
+                "\nnumbersOfAirbags: " + numbersOfAirbags +
+                "\nheatedSeats: " + heatedSeats;
+    }
 }
