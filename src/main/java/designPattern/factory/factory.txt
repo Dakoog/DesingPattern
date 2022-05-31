@@ -4,7 +4,12 @@ Factory ->  Exists in three forms:
            * factory method
            * abstract factory
            * factory
-           When there is a need to define certain objects or types of objects to be built in some intended way.
-           There should be objects that are practical and have very specific fields.
+When to use the factory pattern:
+1. When there is a need to define certain objects or types of objects to be built in some intended way.
+2.When there should be items that are practical and have very specific fields.
+3. To deny access to creating custom objects outside the package.
+4. If necessary, create this object repeatedly in many places.
+
+
 
 
