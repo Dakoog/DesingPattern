@@ -57,6 +57,7 @@ public class Car {
                 "\nprice: " + price +" zł"+
                 "\npowerHP: " + powerHP + " KM"+
                 "\nnumbersOfAirbags: " + numbersOfAirbags +
-                "\nheatedSeats: " + heatedSeats;
+                "\nheatedSeats: " + heatedSeats+"\n";
     }
+
 }

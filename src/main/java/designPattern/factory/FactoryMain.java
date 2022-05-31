@@ -1,5 +1,6 @@
 package designPattern.factory;
 
+import designPattern.factory.car.AbstractFiatFactory;
 import designPattern.factory.car.Car;
 import designPattern.factory.car.FiatFactory;
 
@@ -25,6 +26,15 @@ public class FactoryMain {
 
         fiat125p.setColor("safari");
         System.out.println(fiat125p);
+// ------------------------------------------------------------------------------------
+        Car fiat125p1 = AbstractFiatFactory.createFiat125p();
+        Car fiat126p1 = AbstractFiatFactory.createFiat126p();
+
+        fiat125p1.setColor("coffee with milk");
+        System.out.println(fiat125p1);
+
+        fiat126p1.setColor("khaki");
+        System.out.println(fiat126p1);
 
 
     }
